@@ -1,9 +1,6 @@
 .logo-container {
     line-height: .75;
-}
-
-.header-text {
-    /*background-color: rgba(29, 29, 29, .9);*/
+    color: #282c34;
 }
 
 h1 {

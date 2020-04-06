@@ -11,6 +11,9 @@ const LandingPage = () => (
             <a href="https://calendly.com/surgicalcutz/45" target="_blank">
                 <button>Book Now</button>
             </a>
+            <a href="https://instagram.com/surgicalcutz_" target="_blank">
+                <button>Follow</button>
+            </a>
         </div>
     </>
 );
