@@ -7,6 +7,6 @@
 
     text-align: center;
     color: #282c34;
-    background: linear-gradient(rgba(29, 29, 29, .9), rgba(29, 29, 29, 1)) , url("assets/images/full.png") center center;
+    background: url("assets/images/dotted.png") center center;
     color: white !important;
 }
