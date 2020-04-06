@@ -1,5 +1,5 @@
-.landing-page-container {
-    min-height: 100vh;
+.site-wrapper {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,4 +7,7 @@
 
     text-align: center;
     color: #282c34;
+    /*background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url("assets/images/full.png") center center;*/
+    background: linear-gradient(rgba(29, 29, 29, .8), rgba(29, 29, 29, .8)) , url("assets/images/full.png") center center;
+    color: white !important;
 }

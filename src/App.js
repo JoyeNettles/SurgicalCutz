@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
 import LandingPage from "./components/landing-page/landing-page.component";
-import PricesPage from "./components/prices/prices.component";
 import {Route, Router, Switch} from "react-router-dom";
 
 function App() {
     return (
-        <div className="landing-page-container">
+        <div className="site-wrapper">
             <Switch>
                 <Route path='/' component={LandingPage}
                 />

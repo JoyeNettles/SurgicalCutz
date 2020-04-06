@@ -1,6 +1,5 @@
 import React from "react";
 import './landing-page.styles.css';
-import {Link} from "react-router-dom";
 
 const LandingPage = () => (
     <>
@@ -11,7 +10,7 @@ const LandingPage = () => (
         <div className="button-container">
             <button>Book Now</button>
         </div>
-        </>
+    </>
 );
 
 export default LandingPage;
