@@ -30,7 +30,7 @@ button {
     color: white;
     margin-top: 1vh;
     cursor: pointer;
-    background-color: rgba(29, 29, 29, 1);
+    background-color: rgba(29, 29, 29, .8);
     padding: 1vh 3vw;
     border-radius: 50px;
     border: none;

@@ -1,9 +1,16 @@
 import React from "react";
 import './footer.styles.scss';
 
+import JttwLogo from '../../assets/images/jttw-favicon.ico';
+
 const Footer = () => (
     <footer>
-        <h3>Website brought to you by Joye to the World</h3>
+        <h3>Website powered by
+            <a href="http://www.joyetotheworld.com" target="_blank">
+                <u> Joye to the World</u>
+                <img src={JttwLogo}/>
+            </a>
+        </h3>
     </footer>
 );
 
