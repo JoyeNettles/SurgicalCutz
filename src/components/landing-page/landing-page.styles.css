@@ -15,7 +15,7 @@ h2 {
     font-family: 'Seaweed Script', cursive;
     font-weight: 100;
     font-size: 3vh;
-    text-shadow: 0 0 6px rgba(40, 44, 52, .4);
+    text-shadow: 0 0 6px rgba(49, 49, 49, .4);
 }
 
 span {
@@ -29,16 +29,16 @@ span {
 }
 
 button {
-    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 2vh;
-    text-transform: uppercase;
-    color: white;
     margin-top: 1vh;
     cursor: pointer;
-    background-color: rgba(29, 29, 29, .8);
+    background-color: rgba(140, 140, 140, 0.93);
     padding: 1vh 3vw;
     border-radius: 50px;
     border: none;
+    color: black !important;
+    font-family: 'Canterbury', serif;
+
 }
 
 button:hover {
@@ -54,7 +54,7 @@ button:hover {
     }
 
     h1 {
-        font-size: 15vw;
+        font-size: 30vw;
     }
 
     h2 {
