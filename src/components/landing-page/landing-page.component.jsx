@@ -8,7 +8,9 @@ const LandingPage = () => (
             <h2>by MidKnight</h2>
         </div>
         <div className="button-container">
-            <button>Book Now</button>
+            <a href="https://calendly.com/surgicalcutz/45" target="_blank">
+                <button>Book Now</button>
+            </a>
         </div>
     </>
 );
