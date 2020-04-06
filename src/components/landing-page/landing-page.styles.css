@@ -28,6 +28,11 @@ h2 {
   text-shadow: 0 0 6px rgba(40, 44, 52, .4);
 }
 
+.button-container{
+  margin-top: 2vh;
+  flex-direction: column;
+}
+
 button {
   font-family: monospace;
   font-size: 2vh;
@@ -35,9 +40,8 @@ button {
   color: white;
   background-color: #282c34;
   border-radius: 50px;
-
-  margin-top: 5vh;
   padding: 1vh 1vw;
+  margin-top: 1vh;
 }
 
 button:hover {
