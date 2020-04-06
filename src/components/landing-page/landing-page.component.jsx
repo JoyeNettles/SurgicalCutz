@@ -13,7 +13,6 @@ const LandingPage = () => (
                 <button>Book Now</button>
             </div>
         </div>
-        <Footer className="footer"/>
     </>
 );
 
