@@ -1,0 +1,64 @@
+.landing-page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  color: #282c34;
+}
+
+.logo-container{
+  line-height: .75;
+}
+
+h1 {
+  font-family: 'Canterbury', serif;
+  font-weight: 100;
+  font-size: 15vh;
+  margin: 0;
+  text-shadow: 0 0 6px rgba(40, 44, 52, .4);
+}
+
+h2 {
+  font-family: 'Seaweed Script', cursive;
+  font-weight: 100;
+  font-size: 3vh;
+  text-shadow: 0 0 6px rgba(40, 44, 52, .4);
+}
+
+button {
+  font-family: monospace;
+  font-size: 2vh;
+  text-transform: uppercase;
+  color: white;
+  background-color: #282c34;
+  border-radius: 50px;
+
+  margin-top: 5vh;
+  padding: 1vh 1vw;
+}
+
+button:hover {
+  text-shadow: 0 0 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0 5px 40 -10 rgba(0,0,0,0.57);
+  -moz-box-shadow: 0 5px 40 -10 rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+
+@media only screen and (max-width: 768px) {
+ .logo-container {
+   line-height: .65;
+ }
+
+  h1 {
+    font-size: 15vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+
+}
