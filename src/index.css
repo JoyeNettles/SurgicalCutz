@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Canterbury';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/Canterbury.ttf') format('truetype');
+}
+
 body {
     margin: 0;
 }
