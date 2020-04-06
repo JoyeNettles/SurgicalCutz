@@ -2,6 +2,10 @@
     line-height: .75;
 }
 
+.header-text {
+    background-color: rgba(29, 29, 29, .9);
+}
+
 h1 {
     font-family: 'Canterbury', serif;
     font-weight: 100;
@@ -15,6 +19,10 @@ h2 {
     font-weight: 100;
     font-size: 3vh;
     text-shadow: 0 0 6px rgba(40, 44, 52, .4);
+}
+
+span{
+    background-color: red;
 }
 
 .button-container {
@@ -38,8 +46,8 @@ button {
 
 button:hover {
     text-shadow: 0 0 6px rgba(255, 255, 255, 1);
-    -webkit-box-shadow: 0 5px 40 -10 rgba(0,0,0,0.57);
-    -moz-box-shadow: 0 5px 40 -10 rgba(0,0,0,0.57);
+    -webkit-box-shadow: 0 5px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0 5px rgba(0,0,0,0.57);
     transition: all 0.4s ease 0s;
 }
 
@@ -60,16 +68,4 @@ button:hover {
         padding: 1vh 5vw;
     }
 
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    flex: 1 0 auto;
-}
-.footer {
-    flex-shrink: 0;
 }
