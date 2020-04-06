@@ -1,13 +1,13 @@
-.landing-page-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/*.landing-page-container {*/
+/*  min-height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
 
-  text-align: center;
-  color: #282c34;
-}
+/*  text-align: center;*/
+/*  color: #282c34;*/
+/*}*/
 
 .logo-container{
   line-height: .75;
@@ -38,17 +38,13 @@ button {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2vh;
   text-transform: uppercase;
-  color: white;
-  background-color: #282c34;
-  border-radius: 25px;
-  padding: 1vh 3vw;
+  color: #282c34;
   margin-top: 1vh;
+  cursor: pointer;
 }
 
 button:hover {
-  text-shadow: 0 0 6px rgba(255, 255, 255, 1);
-  -webkit-box-shadow: 0 5px 40 -10 rgba(0,0,0,0.57);
-  -moz-box-shadow: 0 5px 40 -10 rgba(0,0,0,0.57);
+    text-shadow: 0 0 6px rgba(40, 44, 52, .4);
   transition: all 0.4s ease 0s;
 }
 
