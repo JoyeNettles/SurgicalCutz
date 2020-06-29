@@ -9,10 +9,10 @@ const LandingPage = () => (
             <img src={logo} alt='Surgical Cutz Logo' className='img-fluid'/>
         </div>
         <div className="button-container">
-            <a href="https://instagram.com/surgicalcutz_" target="_blank">
+            <a href="https://instagram.com/surgicalcutz_" rel="noopener noreferrer" target="_blank">
                 <img src="https://img.icons8.com/wired/64/000000/instagram-new.png"/>
             </a>
-            <a href="mailto:surgicalcutz@gmail.com" target="_blank">
+            <a href="mailto:surgicalcutz@gmail.com" rel="noopener noreferrer" target="_blank">
                 <img src="https://img.icons8.com/wired/64/000000/email.png"/>
             </a>
         </div>
