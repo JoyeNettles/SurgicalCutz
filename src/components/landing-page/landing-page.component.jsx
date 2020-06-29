@@ -6,7 +6,7 @@ import './landing-page.styles.scss';
 const LandingPage = () => (
     <div className='landing-page'>
         <div className="logo-container">
-            <img src={logo} alt='Surgical Cutz Logo'/>
+            <img src={logo} alt='Surgical Cutz Logo' className='img-fluid'/>
         </div>
         <div className="button-container">
             <a href="https://instagram.com/surgicalcutz_" target="_blank">
