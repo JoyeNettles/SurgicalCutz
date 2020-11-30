@@ -1,0 +1,30 @@
+$montserrat: 'Montserrat', sans-serif;
+$black: #1E1D1D;
+
+.footer {
+  min-height: 5vh;
+  font-family: $montserrat;
+  color: white;
+  background-color: $black;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    margin: 0;
+    text-decoration: none;
+    color: white;
+  }
+
+  .jttw-logo {
+    vertical-align: middle;
+    padding-left: .25rem;
+  }
+}
