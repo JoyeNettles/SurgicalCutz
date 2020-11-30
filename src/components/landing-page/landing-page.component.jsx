@@ -5,21 +5,26 @@ import './landing-page.styles.scss';
 
 const LandingPage = () => (
     <div className='landing-page'>
-        <h1>Surgical Cuts</h1>
+        <img
+            alt={'Surgical Cutz'}
+            src={logo}
+        />
         <div className="button-container">
-            <h2>
-                <a href="https://calendly.com/surgicalcutz/haircut" rel="noopener noreferrer" target="_blank">
-                    Book
-                </a>
-            </h2>
-            <h2>
-                <a href="https://instagram.com/surgicalcutz_" rel="noopener noreferrer" target="_blank">
-                    Instagram
-                </a></h2>
-            <h2>
-                <a href="mailto:surgicalcutz@gmail.com" rel="noopener noreferrer" target="_blank">
-                    Contact
-                </a></h2>
+            <a href="https://calendly.com/surgicalcutz/haircut" rel="noopener noreferrer" target="_blank">
+                <h2>Book</h2>
+            </a>
+
+            <a href="https://forms.gle/i4cmVitfV1dtNx2r7" rel="noopener noreferrer" target="_blank">
+                <h2>Clients</h2>
+            </a>
+
+            <a href="https://instagram.com/surgicalcutz_" rel="noopener noreferrer" target="_blank">
+                <h2>Instagram</h2>
+            </a>
+
+            <a href="mailto:surgicalcutz@gmail.com" rel="noopener noreferrer" target="_blank">
+                <h2>Contact</h2>
+            </a>
         </div>
     </div>
 );
